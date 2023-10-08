@@ -1,3 +1,6 @@
+// Rule 06. Methods (MET)
+// MET01-J. Never use assertions to validate method arguments 
+
 public static int getAbsAdd(int x, int y) {
     if (x == Integer.MINVALUE || y==Integer.MINVALUE) {
         throw new IllegalArgumentException();
