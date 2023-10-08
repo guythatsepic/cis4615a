@@ -5,7 +5,7 @@ class Base {
 }
  
 class Derived extends Base {
-  @Override public void doSomething() {
+  @Override public synchronized void doSomething() {
     // ...
   }
 }
