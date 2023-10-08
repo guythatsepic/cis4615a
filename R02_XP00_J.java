@@ -1,3 +1,6 @@
+// Rule 02. Expressions (EXP)
+// XP00-J. Do not ignore values returned by methods 
+
 public void deleteFile() {
     File someFile = newFile("someFileName.txt");
     // Do something with someFile
