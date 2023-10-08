@@ -1,3 +1,6 @@
+// Rule 10. Thread APIs (THI)
+// THI00-J. Do not invoke Thread.run()
+
 public final class Foo implements Runnable {
   @Override public void run() {
     // ...
