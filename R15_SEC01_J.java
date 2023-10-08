@@ -1,3 +1,6 @@
+// Rule 15. Platform Security (SEC)
+// SEC01-J. Do not allow tainted variables in privileged blocks
+
 private void privilegedMethod(final String filename)
                               throws FileNotFoundException {
   final String cleanFilename;
