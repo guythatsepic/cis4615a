@@ -1,3 +1,6 @@
+// Rule 09. Locking (LCK) 
+// LCK07-J. Avoid deadlock by requesting and releasing locks in the same order 
+
 final class BankAccount implements Comparable<BankAccount> {
   private double balanceAmount;  // Total amount in bank account
   private final Object lock;
